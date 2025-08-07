@@ -11,10 +11,10 @@ public class Visualizer {
                 }
             }
             if (highlight) {
-                System.out.printf("[ "+ arr[i] + " ]");
+                System.out.print("[ "+ arr[i] + " ]");
             }
             else {
-                System.out.printf(" "+ arr[i] + " ");
+                System.out.print(" "+ arr[i] + " ");
             }
         }
         System.out.println();
