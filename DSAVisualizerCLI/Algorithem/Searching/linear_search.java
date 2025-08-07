@@ -11,7 +11,7 @@ public class linear_search {
         for(int i = 0;i < arr.length;i++) {
             Visualizer.printArray(arr,i);
             if(arr[i] == search_key_value) {
-                System.out.println("this array contains the key value we are searching for"+ arr[i]);
+                System.out.println("this array contains the key value we are searching for "+ arr[i]);
                 break;
             }
         }
