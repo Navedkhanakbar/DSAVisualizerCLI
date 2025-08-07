@@ -20,7 +20,7 @@ public class Main {
             arr[i] = Integer.parseInt(part[i].trim());
         }
 
-        System.out.println("/nStarting the bubble sort visualization");
+        System.out.println("\nStarting the bubble sort visualization");
         bubble_sort.sort(arr);
 
 
