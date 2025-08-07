@@ -51,9 +51,6 @@ public class Main {
                     System.out.println("\nStarting the linear search visualization");
                     linear_search.searchlinear(arr,value);
                 }
-                case 0 ->{
-                    exit = true;
-                }
             }
 
 
