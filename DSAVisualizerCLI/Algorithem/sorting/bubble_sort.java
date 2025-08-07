@@ -2,7 +2,7 @@ package DSAVisualizerCLI.Algorithem.sorting;
 import DSAVisualizerCLI.utils.Visualizer;
 
 public class bubble_sort {
-    public void sort(int[] arr) {
+    public static void sort(int[] arr) {
         int n = arr.length;
 
         System.out.println("Array before sorting: ");
@@ -14,7 +14,7 @@ public class bubble_sort {
             boolean swapped = false;
 
 
-            for (int j = 0; j < -i - 1; j++) {
+            for (int j = 0; j < n -i - 1; j++) {
                 Visualizer.printArray(arr, j, j + 1); // highlighting the comparing indices
 
                 if (arr[j] > arr[j + 1]) {
@@ -28,7 +28,7 @@ public class bubble_sort {
             if (!swapped) break;  // breaking if array is already sorted.
         }
 
-        System.out.println("/nsorted arrary : ");
+        System.out.println("\nsorted arrary : ");
         Visualizer.printArray(arr); //final result of sorted array.
 
     }
