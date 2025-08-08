@@ -8,7 +8,7 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
 
-        boolean exit = true;
+//        boolean exit = true;
 
         do {
 
@@ -55,7 +55,7 @@ public class Main {
 
 
 
-        }while (exit);
+        }while (true);
 
 
 
