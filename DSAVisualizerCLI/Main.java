@@ -10,7 +10,7 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
 
-//        boolean exit = true;
+        boolean exit = true;
 
         do {
 
